@@ -1,0 +1,43 @@
+.login {
+  margin-top: 250px;
+  margin-bottom: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login input {
+  text-decoration: none;
+  background-color: black;
+  padding: 1rem;
+  margin: 0.5rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  transition: 0.2s ease-in;
+}
+
+.login button {
+  text-decoration: none;
+  background-color: black;
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  transition: 0.1s ease-in;
+}
+
+.login button:hover {
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
